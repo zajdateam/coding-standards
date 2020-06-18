@@ -14,4 +14,11 @@
             <property name="tabIndent" value="true"/>
         </properties>
     </rule>
+    <rule ref="../../slevomat/coding-standard/SlevomatCodingStandard/Sniffs/TypeHints/DeclareStrictTypesSniff.php">
+        <properties>
+            <property name="newlinesCountBetweenOpenTagAndDeclare" value="0" />
+            <property name="newlinesCountAfterDeclare" value="2" />
+            <property name="spacesCountAroundEqualsSign" value="0" />
+        </properties>
+    </rule>
 </ruleset>
